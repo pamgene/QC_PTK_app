@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "c845ceade32c4423bc616ff5ab48129c",
+  "id": "5fdacf2e254f508d0bd669ac03ef6029",
   "isDeleted": false,
-  "rev": "4-27719582232d95607182444d1a1875c2",
+  "rev": "4-aaaecacab9582fae56ebfa3d75aa54c4",
   "description": "Quality control of Tyrosine PamChip measurements",
   "name": "QC_PTK_app",
-  "createdBy": "ginberg",
+  "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "pamgene",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-02-03T09:04:42.742183Z"
+    "value": "2023-03-14T12:40:05.692725Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-02-03T09:04:45.046210Z"
+    "value": "2023-03-15T10:05:18.296592Z"
   },
   "urls": [
     {
@@ -36,6 +36,21 @@
       "kind": "Pair",
       "key": "copyOf",
       "value": "46842dc092dac0594fe844174f745de3"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_reset_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_old_task_",
+      "value": "0.10.15"
     }
   ],
   "url": {
@@ -45,7 +60,7 @@
   "version": "0.0.3",
   "authors": [],
   "isPublic": false,
-  "projectId": "c845ceade32c4423bc616ff5ab22f158",
+  "projectId": "5fdacf2e254f508d0bd669ac039f912e",
   "folderId": "",
   "links": [
     {
@@ -279,7 +294,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -311,8 +326,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "PTK QC",
-            "version": "0.0.1",
-            "operatorId": "c845ceade32c4423bc616ff5ab18c1b5",
+            "version": "0.1.1",
+            "operatorId": "5fdacf2e254f508d0bd669ac03f7fb4c",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -323,7 +338,7 @@
             ],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/PTK_QC_presence_operator"
+              "uri": "https://github.com/pamgene/PTK_QC_presence_operator"
             }
           },
           "environment": []
@@ -356,7 +371,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -390,7 +405,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 186.2636260986328,
+          "x": 186.26368713378906,
           "y": 55.0
         },
         "topLeft": {
@@ -691,7 +706,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 100.89186096191406,
+          "x": 100.89187622070312,
           "y": 55.0
         },
         "topLeft": {
@@ -1136,7 +1151,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 112.77784729003906,
+          "x": 112.77787780761719,
           "y": 55.0
         },
         "topLeft": {
@@ -1313,7 +1328,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1326,8 +1341,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Identity",
-            "version": "0.0.1",
-            "operatorId": "c845ceade32c4423bc616ff5ab1876f9",
+            "version": "0.1.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03ef799a",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -1365,7 +1380,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1610,7 +1625,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -250.0,
-    "y": 174.0
+    "x": -196.0,
+    "y": -76.0
   }
 }
