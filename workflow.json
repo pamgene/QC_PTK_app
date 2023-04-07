@@ -1,8 +1,8 @@
 {
   "kind": "Workflow",
-  "id": "5fdacf2e254f508d0bd669ac03ef6029",
+  "id": "c396df425957007ccc1d5a6ff91772b1",
   "isDeleted": false,
-  "rev": "4-aaaecacab9582fae56ebfa3d75aa54c4",
+  "rev": "4-1c6df7470b7b4aad97f573d52f6d5131",
   "description": "Quality control of Tyrosine PamChip measurements",
   "name": "QC_PTK_app",
   "createdBy": "dschuller",
@@ -13,11 +13,11 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2023-03-14T12:40:05.692725Z"
+    "value": "2023-03-15T12:20:30.474082Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-03-15T10:05:18.296592Z"
+    "value": "2023-03-15T12:20:31.217102Z"
   },
   "urls": [
     {
@@ -51,16 +51,21 @@
       "kind": "Pair",
       "key": "_upgrade_old_task_",
       "value": "0.10.15"
+    },
+    {
+      "kind": "Pair",
+      "key": "readOnly",
+      "value": "true"
     }
   ],
   "url": {
     "kind": "Url",
-    "uri": "https://github.com/tercen/QC_PTK_app"
+    "uri": "https://github.com/pamgene/QC_PTK_app"
   },
-  "version": "0.0.3",
+  "version": "0.1.0",
   "authors": [],
   "isPublic": false,
-  "projectId": "5fdacf2e254f508d0bd669ac039f912e",
+  "projectId": "5fdacf2e254f508d0bd669ac03e70369",
   "folderId": "",
   "links": [
     {
