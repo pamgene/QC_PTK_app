@@ -3,12 +3,12 @@
   "id": "c396df425957007ccc1d5a6ff91772b1",
   "isDeleted": false,
   "rev": "4-1c6df7470b7b4aad97f573d52f6d5131",
-  "description": "Quality control of Tyrosine PamChip measurements",
+  "description": "Quality control of PTK PamChip measurements",
   "name": "QC_PTK_app",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "Test_NewTemplates",
+    "owner": "dschuller",
     "aces": []
   },
   "createdDate": {
@@ -22,7 +22,7 @@
   "urls": [
     {
       "kind": "Url",
-      "uri": "https://github.com/tercen/QC_PTK_app"
+      "uri": "https://github.com/pamgene/QC_PTK_app"
     }
   ],
   "tags": [],
@@ -331,7 +331,7 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "PTK QC",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "operatorId": "5fdacf2e254f508d0bd669ac03f7fb4c",
             "operatorKind": "ROperator",
             "propertyValues": [
