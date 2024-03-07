@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "README.md",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "README.md",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "dataUri": "lfs/d6/72/2f1c6669cb04db717ad75963132b3246f15094a76f964e08812d627e7e99",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 1580
+}
